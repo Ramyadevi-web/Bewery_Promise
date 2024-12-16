@@ -1,0 +1,42 @@
+.dropdown{
+    margin: 5% 50% 0 50%;
+}
+.container{
+    display: none;
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 2px 5px
+}
+
+.container>div:first-child{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-weight: 500;
+    
+}
+h1{
+    color: #b71111;
+    font-weight: bold;
+    text-align: center
+}
+.container>div:not(:first-child){
+    font-size: 35px;
+}
+.subHeading{
+    font-weight: bold;
+}
+.dropdown-menu{
+    padding: 10px;
+}
+.dropdown-menu > li{
+    border-bottom: 1px solid #e7dddd;
+    cursor : pointer;
+}
+
+li:hover{
+    background-color: #0a58ca;
+    color : white;
+}
