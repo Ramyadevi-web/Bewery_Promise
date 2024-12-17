@@ -3,27 +3,34 @@
     margin: 5% 47% 0 47%
 }
 .container{
+    margin-top:50px;
+}
+.outputContainer{
     display: none;
-    border: 1px solid black;
+    border: 1px solid #8f1818;
     width: 50%;
     border-radius: 10px;
-    margin-top: 30px;
-    box-shadow: 1px 2px 5px
+    margin:30px 25% 0 25%;
+    box-shadow: 2px 2px 12px 3px;
+    padding-left: 25px;
 }
 
-.container>div:first-child{
+.card>div:first-child{
     text-align: center;
     font-size: 50px;
     color: brown;
     font-weight: 500;
     
 }
+.card-text>span{
+    font-weight: bold;
+}
 h1{
     color: #b71111;
     font-weight: bold;
     text-align: center
 }
-.container>div:not(:first-child){
+.card>div:not(:first-child){
     font-size: 35px;
 }
 .subHeading{
