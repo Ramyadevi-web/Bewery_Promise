@@ -58,7 +58,7 @@ p1.then((data) => {
         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Select City
         </button>
-        <ul class="dropdown-menu" id="city-list">
+        <ul class="dropdown-menu city-list" id="">
          ${data.map((ele)=>
         `<li data-city="${ele.city}" data-name="${ele.name}" data-breweryType="${ele.brewery_type}" 
         data-link="${ele.website_url}">${ele.city}</li>`
@@ -66,7 +66,7 @@ p1.then((data) => {
         </ul>
     </div>`;
 
-  let cityItems = document.querySelectorAll("#city-list li")
+  let cityItems = document.querySelectorAll(".city-list li")
   // AddEventListener for each cities added.
   cityItems.forEach((item)=>{
   item.addEventListener("click",function(){
